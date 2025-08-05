@@ -6,52 +6,8 @@ Operational modes reference for Claude Code SuperClaude framework.
 
 Three primary modes for optimal performance:
 
-1. **Task Management**: Structured workflow execution and progress tracking
-2. **Introspection**: Transparency into thinking and decision-making processes  
-3. **Token Efficiency**: Optimized communication and resource management
-
----
-
-# Task Management Mode
-
-## Core Principles
-- Evidence-Based Progress: Measurable outcomes
-- Single Focus Protocol: One active task at a time
-- Real-Time Updates: Immediate status changes
-- Quality Gates: Validation before completion
-
-## Architecture Layers
-
-### Layer 1: TodoRead/TodoWrite (Session Tasks)
-- **Scope**: Current Claude Code session
-- **States**: pending, in_progress, completed, blocked
-- **Capacity**: 3-20 tasks per session
-
-### Layer 2: /task Command (Project Management)
-- **Scope**: Multi-session features (days to weeks)
-- **Structure**: Hierarchical (Epic → Story → Task)
-- **Persistence**: Cross-session state management
-
-### Layer 3: /spawn Command (Meta-Orchestration)
-- **Scope**: Complex multi-domain operations
-- **Features**: Parallel/sequential coordination, tool management
-
-### Layer 4: /loop Command (Iterative Enhancement)
-- **Scope**: Progressive refinement workflows
-- **Features**: Iteration cycles with validation
-
-## Task Detection and Creation
-
-### Automatic Triggers
-- Multi-step operations (3+ steps)
-- Keywords: build, implement, create, fix, optimize, refactor
-- Scope indicators: system, feature, comprehensive, complete
-
-### Task State Management
-- **pending** 📋: Ready for execution
-- **in_progress** 🔄: Currently active (ONE per session)
-- **blocked** 🚧: Waiting on dependency
-- **completed** ✅: Successfully finished
+1. **Introspection**: Transparency into thinking and decision-making processes  
+2. **Token Efficiency**: Optimized communication and resource management
 
 ---
 
