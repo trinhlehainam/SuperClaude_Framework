@@ -37,6 +37,8 @@ wheels/
 # IDE
 .vscode/
 .idea/
+.windsurf/
+.serena/
 *.swp
 *.swo
 *~
