@@ -6,5 +6,4 @@
 @RULES.md
 @MCP.md
 @PERSONAS.md
-@ORCHESTRATOR.md
 @MODES.md
